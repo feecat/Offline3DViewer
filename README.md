@@ -1,7 +1,7 @@
 # Offline3DViewer
 Online3DViewer with Electron
 
-![](intro1.png)
+![](intro2.png)
 
 ## Useage
 
