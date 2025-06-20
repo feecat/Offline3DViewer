@@ -1,0 +1,30 @@
+{
+  "name": "Offline3DViewer",
+  "version": "1.0.0",
+  "description": "Online3DViewer with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^36.5.0"
+  },
+  "build": {
+    "appId": "com.offline3dviewer.app",
+    "productName": "Offline3DViewer",
+    "win": {
+      "target": "dir",
+      "icon": "assets/images/3dviewer_net_favicon.ico"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "rhino3dm.wasm",
+      "web-ifc.wasm",
+      "build/**/*",
+      "assets/**/*",
+      "undefined/**/*",
+      "package.json"
+    ]
+  }
+}
